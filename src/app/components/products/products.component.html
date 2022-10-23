@@ -1,0 +1,12 @@
+<app-banner></app-banner>
+<div class="products-wrapper">
+  <h1>Our Featured Products</h1>
+  <section class="container">
+    <app-product-card
+      *ngFor="let product of products"
+      [product]="product"
+      [type]="'product-card'"
+      (addWl)="onAddWlBtnClicked($event)"
+    ></app-product-card>
+  </section>
+</div>

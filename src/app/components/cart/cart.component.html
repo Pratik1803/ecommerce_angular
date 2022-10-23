@@ -1,0 +1,10 @@
+<div class="cart">
+  <h1>Your Wishlisted Products:</h1>
+  <div class="wrapper">
+    <app-cart-item
+      *ngFor="let cartItem of cartItems; let index"
+      [cartItem]="cartItem"
+      (remove)="onRemoveItem($event)"
+    ></app-cart-item>
+  </div>
+</div>

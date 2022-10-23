@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  filter: invert(1);
+  .cart-items-wrapper {
+    display: flex;
+    align-items: center;
+    .cart-items {
+      margin-right: 50px;
+    }
+  }
+}

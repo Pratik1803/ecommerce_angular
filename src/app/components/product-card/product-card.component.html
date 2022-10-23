@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="image"></div>
+  <div class="text">
+    <h3>{{ product.name }}</h3>
+    <strong>Rs.{{ product.price }}</strong
+    ><br />
+    <!-- <p>{{ product.rating }}</p> -->
+    <button
+      [ngStyle]="{
+        'background-color': type === 'product-card' ? 'orange' : 'red'
+      }"
+      (click)="buttonClicked(product)"
+    >
+      {{ type === "product-card" ? "WishList" : "Remove" }}
+    </button>
+  </div>
+</div>

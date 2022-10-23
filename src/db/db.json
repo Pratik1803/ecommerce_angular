@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 14",
+      "price": "84,000",
+      "rating": 4,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S9",
+      "price": "64,000",
+      "rating": 4,
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Nike AirJordans",
+      "price": "40,000",
+      "rating": 5,
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Saino Softek",
+      "price": "4",
+      "rating": 5,
+      "image": ""
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 3,
+      "name": "Nike AirJordans",
+      "price": "40,000",
+      "rating": 5,
+      "image": ""
+    }
+  ]
+}
